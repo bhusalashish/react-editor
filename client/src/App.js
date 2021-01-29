@@ -1,9 +1,11 @@
-import "./App.css";
+import React from "react";
+import MyEditor from "./Components/MyEditor";
 
 function App() {
     return (
         <div className="App">
-            <h1>Let's Start Codeing</h1>
+            <h1>This is our Brand New Editor</h1>
+            <MyEditor />
         </div>
     );
 }
